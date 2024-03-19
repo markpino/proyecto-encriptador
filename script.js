@@ -9,8 +9,13 @@ const cryptMap = [
     ["u", "ufat"],    //4
     ];
 
-    function  btnEncryptText() {
-        const  textEncrypted = textUserIn.value;
-        console.log(textEncrypted);
+function  btnEncryptText() {
+    const  textEncrypted = textUserIn.value;
+    console.log(textEncrypted);
+}
+
+function  encryptChar(charToEncrypt) {
+    for(let i = 0; i < cryptMap.length; i++){
     }
+}
 
